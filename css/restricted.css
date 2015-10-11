@@ -1,0 +1,61 @@
+.restricted-content{
+	margin-top: 150px;
+}
+
+.update-info-link{
+	margin-top: 15px;
+}
+
+#logout-button.button{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#admin-button.button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.message-section{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#from-header{
+	display: inline-block;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#subject-header{
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+#from{
+	display: inline-block;
+}
+
+#subject{
+	display: inline-block;
+	position: absolute;
+	left: 200px;
+	
+}
+
+.message{
+	margin-left: 25px;
+	border-color: rgba(51,51,51,0.3);
+	border-width: 2px;
+	border-style: none none none solid;
+	padding: 10px 10px 10px 10px;
+}
+
+#delete-button{
+	margin-left: 25px;
+}

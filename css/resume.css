@@ -1,0 +1,192 @@
+.resume-splash{
+  position: static;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-size: 750px 150px;
+  max-height: 50px;
+  margin-top: 69px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  <!--background-size: cover;-->
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-image: url('../images/dot-graphic.jpg');
+}
+.resume-ribbon{
+  margin-bottom: -28px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: 1532px 108px;
+  min-width: 500px;
+  max-width: 1280px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../images/resume-ribbon-long.png');
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+.resume-content{
+  position: static;
+  margin-top: 70px;
+  padding-top: 35px;
+  padding-bottom: 35px;    
+  
+}
+.resume-maincontent{
+  position: static;
+  left: 0px;
+  bottom: 0px;
+  display: inline-block;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  background-color: rgba(253, 248, 241, 1);
+  box-shadow: black 10px 0px 12px -9px, black -10px 0px 12px -9px;
+  -moz-box-shadow: black 10px 0px 12px -9px, black -10px 0px 12px -9px;
+  -webkit-box-shadow: black 10px 0px 12px -9px, black -10px 0px 12px -9px;
+     <!-- white 0 9px 0px 0px, white 0 -9px 0px 0px;-->
+  <!--box-shadow: 
+      inset 10px 0px 10px -7px rgba(0,0,0,0.5),
+      inset -10px 0px 10px -7px rgba(0,0,0,0.5);-->
+}
+.resume-section{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.job-title{
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.job-title.education{
+    display: inline-block;
+    padding-bottom: 10px;
+    
+}
+.resume-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.company-name{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+#company-name{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.company-name.education{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.company-details{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    line-height: 25px;
+}
+#resume-list ul{
+    padding-left: 30px;
+}
+.skills-list{
+  width:450px;
+  margin-bottom:20px;
+  overflow:hidden;
+}
+#skills-item li{
+  line-height:1.5em;
+  float:left;
+  display:inline;
+  width:33.333%;
+}
+
+
+@media all and (max-width: 575px) {
+
+	.resume-content{
+	  margin-top: 140px;  
+	}
+	.resume-ribbon{
+	  width: 100%;
+	  padding-bottom: 10px;
+	  min-width: 300px;
+	}
+	.resume-maincontent {
+	  padding-top: 0px;
+	  padding-right: 10px;
+	  padding-left: 10px;
+	  width: 90%;
+	}
+	.resume-section {
+	  font-size: 25px;
+	  line-height: 28px;
+	  padding-top: 40px;
+	  padding-bottom: 20px;
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+	.job-title {
+	  font-size: 20px;
+	  line-height: 24px;
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+	.company-details {
+	  font-size: 12px;
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+	.resume-text {
+	  font-size: 14px;
+	  padding-left: 0px;
+	  padding-right: 10px;
+	}
+	.company-name {
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+	.company-name.education {
+	  font-size: 14px;
+	  line-height: 22px;
+	  padding-left: 0px;
+	  padding-right: 0px;
+	}
+	.skills-list{
+	  width: 100%;
+	  max-width: 575px;
+  	  padding-left: 0px;
+  	  padding-right: 0px;
+  }
+}

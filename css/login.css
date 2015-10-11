@@ -1,0 +1,140 @@
+.login-window .login {
+position: relative;
+right: 0%;
+left: 0%;
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  min-width: 0px;
+  max-width: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  padding-left: 200px;
+  padding-right: 200px;
+  background-color: white;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.splash-container {
+  max-height: 500px;
+  margin-top: 69px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.login-container {
+	display: inline-block;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin: 0 auto;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.5);
+	
+}
+
+.footer {
+  margin-top: 0px;
+}
+
+
+form {
+	position: absolute;
+	left: 0px;
+	top: 60px;
+	width: 400px;
+	height: 240px;
+	padding-top: 30px;
+    text-align:center;
+    margin-top: 10px;
+}
+
+label{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: right;
+    clear: both;
+    float: left;
+    margin-right: 0px;
+}
+
+input[type=text], input[type=password], textarea{
+    height: 30px;
+    width: 200px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    color: #333;
+    margin: 5px 0px 25px 0px;
+    padding: 5px 8px;
+    transition:.2s linear;
+    -webkit-transition:.2s linear;
+    -moz-transition:.2s linear;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus{
+	outline: none;
+    box-shadow: 0px 0px 7px #61C5FA;
+    -moz-box-shadow: 0px 0px 7px #61C5FA;
+    border-color: #61C5FA;
+    -moz-border-color: #61C5FA;
+}
+
+.login-text{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.test-user-text{
+	margin-bottom: 10px;
+	color: rgba(0,0,0,0.5)
+}
+
+input[type=submit]{
+    padding: 10px 40px;
+    border: solid #333 1px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit]:hover{
+    border: solid rgba(235, 115, 2, 0.88) 1px;
+    color: rgba(235, 115, 2, 0.88);
+}
+
+input[type=submit]:focus{
+	outline: none;
+}
+
+.form-error{
+	position: absolute;
+	top: 315px;
+	left: 0px;
+	width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.error-message{
+	text-align: center;
+    padding-top: 5px;
+    color: rgba(235, 115, 2, 0.88);
+}
