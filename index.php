@@ -37,11 +37,11 @@ include_once dirname(__FILE__) ."/includes/functions.php";
     ?>
       
     <div class="splash-container">
-	    <!--<div class="hero-container">
+	    <div class="hero-container">
 		    <h1 class="hero-text hero-text-1">Learning. Thinking.</h1>
 		    <h1 class="hero-text hero-text-2">Designing. Creating.</h1>
 		    <h1 class="hero-text hero-text-3">Innovating.</h1>
-	    </div>-->
+	    </div>
 	    <div class="hero-container">
 		    <!--<h1 class="hero-text hero-text-1">Improving the well being of all... </h1>
 		    <h1 class="hero-text hero-text-2">through the power of innovation.</h1>-->
