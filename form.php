@@ -15,7 +15,6 @@ include_once dirname(__FILE__) ."/includes/functions.php";
   <link rel="stylesheet" type="text/css" href="css/foundation.css">
   <link rel="stylesheet" type="text/css" href="css/ianabshire.css">
   <link rel="stylesheet" type="text/css" href="css/form.css">
-  <link rel="stylesheet" type="text/css" href="css/fonts.css">
   
   <?php
     include_once "head_include.php";

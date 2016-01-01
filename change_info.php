@@ -14,7 +14,6 @@ include_once dirname(__FILE__) ."/includes/functions.php";
   <title>Ian Abshire - Change Info</title>
   <link rel="stylesheet" type="text/css" href="css/foundation.css">
   <link rel="stylesheet" type="text/css" href="css/ianabshire.css">
-  <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/login.css">
   <link rel="stylesheet" type="text/css" href="css/register.css">
   

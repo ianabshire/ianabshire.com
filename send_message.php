@@ -18,7 +18,6 @@ if (!isUserLoggedIn()){
   <title>Ian Abshire - Send Message</title>
   <link rel="stylesheet" type="text/css" href="css/foundation.css">
   <link rel="stylesheet" type="text/css" href="css/ianabshire.css">
-  <link rel="stylesheet" type="text/css" href="css/fonts.css">
   <link rel="stylesheet" type="text/css" href="css/login.css">
   <link rel="stylesheet" type="text/css" href="css/send_message.css">
   

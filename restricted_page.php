@@ -18,7 +18,6 @@ if (isset($_GET['logout']) && $_GET['logout'] == true)  // if page is retrieved 
   <link rel="stylesheet" type="text/css" href="css/foundation.css">
   <link rel="stylesheet" type="text/css" href="css/ianabshire.css">
   <link rel="stylesheet" type="text/css" href="css/restricted.css">
-  <link rel="stylesheet" type="text/css" href="css/fonts.css">
   
   <?php
     include_once "head_include.php";
