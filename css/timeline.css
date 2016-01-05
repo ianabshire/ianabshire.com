@@ -91,14 +91,17 @@
   margin-left: -12px;
   margin-top: -12px;
 }*/
-.cd-timeline-img.cd-picture {
+.cd-timeline-img.green {
   background: #75ce66;
 }
-.cd-timeline-img.cd-movie {
+.cd-timeline-img.red {
   background: #c03b44;
 }
-.cd-timeline-img.cd-location {
+.cd-timeline-img.yellow {
   background: #f0ca45;
+}
+.cd-timeline-img.blue {
+  background: #049eff;
 }
 /*@media only screen and (min-width: 1170px)*/
 @media only screen and (min-width: 70px) {

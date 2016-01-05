@@ -55,7 +55,7 @@ if (isset($_GET['logout']) && $_GET['logout'] == true)
           <div class="resume-section">Work Experience</div>
             
             <div class="job-title">Software Engineer</div><br>
-            <a class="company-name" href="http://www.zeiss.com/microscopy/en_us/products/x-ray-microscopy.html">Carl Zeiss X-Ray Microscopy</a>
+            <a class="company-name" href="http://www.zeiss.com/microscopy/en_us/products/x-ray-microscopy.html">Carl Zeiss X-ray Microscopy</a>
             <div class="company-details">
             Pleasanton, CA - February, 2015 - Present
             </div>
@@ -65,7 +65,7 @@ if (isset($_GET['logout']) && $_GET['logout'] == true)
             </div>
             
             <div class="job-title">Software Engineering Intern</div><br>
-            <a class="company-name" href="http://www.zeiss.com/microscopy/en_us/products/x-ray-microscopy.html">Carl Zeiss X-Ray Microscopy</a>
+            <a class="company-name" href="http://www.zeiss.com/microscopy/en_us/products/x-ray-microscopy.html">Carl Zeiss X-ray Microscopy</a>
             <div class="company-details">
             Pleasanton, CA - May-August, 2014
             </div>
