@@ -40,7 +40,7 @@ if (isset($_GET['logout']) && $_GET['logout'] == true)
     <!--<div class="resume-splash"></div>-->
     <div class="resume-content">
       <div class="resume-ribbon"></div>
-      <div class="container">
+      <div class="container resume">
         <div class="resume-maincontent">
             
           <div class="resume-section">Education</div>

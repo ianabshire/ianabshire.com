@@ -20,10 +20,17 @@
 </div>
 
 <script>
-	$( document ).ready(function() {
+	$(document).ready(function() {
     	$('.letter-text').addClass("load");
-    	$('.nav-links').addClass("load");
+    	$('.nav-links').addClass("load");   	
 	});
+
+	if (!$(location).attr('href').contains("index")) {
+		var login_color = $('#login-link').css("color");
+		$('.name-text').css("color", "#333");
+		$('.nav-link').css("color", "#333");
+    	$('#login-link').css("color", login_color);
+	}
 
 	$(window).scroll(function() {
 	  if ($(this).scrollTop() > 1){

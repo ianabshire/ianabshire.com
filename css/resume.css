@@ -55,8 +55,8 @@
       inset -10px 0px 10px -7px rgba(0,0,0,0.5);-->
 }
 .resume-section{
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 30px;
@@ -121,15 +121,15 @@
     padding-left: 30px;
 }
 .skills-list{
-  width:450px;
-  margin-bottom:20px;
-  overflow:hidden;
+  width: 450px;
+  padding: 10px 20px;
+  overflow: hidden;
 }
 #skills-item li{
-  line-height:1.5em;
-  float:left;
-  display:inline;
-  width:33.333%;
+  line-height: 1.5em;
+  float: left;
+  display: inline;
+  width: 33.333%;
 }
 
 
