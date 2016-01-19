@@ -25,7 +25,7 @@
     	$('.nav-links').addClass("load");   	
 	});
 
-	if (!$(location).attr('href').contains("index")) {
+	if ($(location).attr('href').toLowerCase().indexOf("index") < 0) {
 		var login_color = $('#login-link').css("color");
 		$('.name-text').css("color", "#333");
 		$('.nav-link').css("color", "#333");

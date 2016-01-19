@@ -357,6 +357,7 @@ a:hover {
   margin: auto;
   z-index: 2;
   max-width: 1040px;
+  padding: 0px 10px 0px 10px;
 }
 .hero-text {
   position: relative;
@@ -736,6 +737,9 @@ input[type=submit].login{
     margin-left: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition:.2s linear;
+    -webkit-transition:.2s linear;
+    -moz-transition:.2s linear;
 }
 
 input[type=submit].login:hover{
@@ -808,6 +812,9 @@ input[type=submit]:focus.login{
      padding:0px; /* remove default padding */
      width:100%; /* take full browser width */
      height:100%; /* take full browser height*/
+  }
+  h2 {
+	  font-size: 22px;
   }
   .pagecontainer{
 	  width: 100%;
@@ -883,7 +890,7 @@ input[type=submit]:focus.login{
 	  width:100%;
   }
   .hero-container{
-	  width:100%;
+	  padding: 0px 10px 0px 10px;
   }
   .container{
 	  width:100%;
