@@ -162,7 +162,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 </div>
 		    	
 		    	<div id='submit'>
-                	<input type='submit' value='Send Message'>	
+                	<input class='button' type='submit' value='Send Message'>	
                 </div>
 		    </form>
                 
