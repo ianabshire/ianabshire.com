@@ -41,3 +41,7 @@ textarea{
 input[type=submit]{
     padding: 10px 20px 10px 20px;
 }
+
+.send-message-container {
+	margin: 110px;
+}

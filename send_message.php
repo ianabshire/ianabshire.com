@@ -98,10 +98,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     include_once "header.php";
     ?>
 
-    <div class="splash-container">
+    <!--<div class="splash-container">-->
 	    
 		    
 		    <div class="login-window">
+		    <div class="send-message-container">
 		    	<div class="login-text"><h1>Send Message</h1></div>
 			    <!-- <div class="login-container"> -->
 				    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
@@ -191,10 +192,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 ?>
 				</div>
 				<!-- </div> -->
+			</div>
 		    </div>
 		    
 	    
-    </div>
+    <!--</div>-->
     
      <?php include_once "footer.php"; ?>
       
