@@ -40,7 +40,7 @@ include_once dirname(__FILE__) ."/includes/functions.php";
       
     <div class="splash-container">
 	    <div class="hero-container">
-	    	<h1 class="hero-text">This is an interesting quote, which will later be populated with a real quote.</h1>
+	    	<h1 class="hero-text">This is an interesting quote, which will eventually be populated with a real quote.</h1>
 	    	<h2 class="hero-text quote-author">- Ian Abshire</h2>
 		    <!--<h1 class="hero-text hero-text-1">Learning. Thinking.</h1>
 		    <h1 class="hero-text hero-text-2">Designing. Creating.</h1>

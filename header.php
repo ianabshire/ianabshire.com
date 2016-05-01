@@ -24,8 +24,11 @@
     	$('.letter-text').addClass("load");
     	$('.nav-links').addClass("load");   	
 	});
+	
+	var title = document.getElementsByTagName("title")[0].innerHTML;
 
-	if ($(location).attr('href').toLowerCase().indexOf("index") < 0) {
+	// $(location).attr('href').toLowerCase().indexOf("index") < 0
+	if (title.indexOf("-") > 0) { // check if currently on homepage (title does not contain - character)
 		var login_color = $('#login-link').css("color");
 		$('.name-text').css("color", "#333");
 		$('.nav-link').css("color", "#333");

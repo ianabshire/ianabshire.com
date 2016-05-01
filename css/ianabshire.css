@@ -363,6 +363,7 @@ a:hover {
 }
 .quote-author {
   font-style: italic;
+  margin-top: 5px;
 }
 /*.hero-text-1{
   top: 0px;
