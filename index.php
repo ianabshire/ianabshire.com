@@ -26,12 +26,6 @@ include_once dirname(__FILE__) ."/includes/functions.php";
     
 <body>
 
-<!--
-<script> 
-  $("#header").load("/header.html"); 
-  $("#footer").load("footer.html"); 
-</script>
- -->   
   <div class="pagecontainer">
       
     <?php
@@ -42,9 +36,6 @@ include_once dirname(__FILE__) ."/includes/functions.php";
 	    <div class="hero-container">
 	    	<h1 class="hero-text">This is an interesting quote, which will eventually be populated with a real quote.</h1>
 	    	<h2 class="hero-text quote-author">- Ian Abshire</h2>
-		    <!--<h1 class="hero-text hero-text-1">Learning. Thinking.</h1>
-		    <h1 class="hero-text hero-text-2">Designing. Creating.</h1>
-		    <h1 class="hero-text hero-text-3">Innovating.</h1>-->
 	    </div>
 	    <div class="hero-container">
 		    <!--<h1 class="hero-text hero-text-1">Improving the well being of all... </h1>
@@ -57,7 +48,7 @@ include_once dirname(__FILE__) ."/includes/functions.php";
       <!--
         <div class="leftsidebar">
           <div class="sidebar-item">
-            <div class="sidebar-text"><a href="https://www.linkedin.com/pub/ian-abshire/4b/5ab/76">LinkedIn</a></div>
+            <div class="sidebar-text"><a href=#>LinkedIn</a></div>
           </div>
           <div class="sidebar-item">
             <div class="sidebar-text">Sidebar Item</div>
