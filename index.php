@@ -20,7 +20,7 @@ include_once dirname(__FILE__) ."/includes/functions.php";
     include_once "head_include.php";
   ?>
   
-  <script src="js/modernizr.js"></script> <!-- Modernizr -->
+  <script async src="js/modernizr.min.js"></script> <!-- Modernizr -->
 
 </head>
     
@@ -178,7 +178,7 @@ include_once dirname(__FILE__) ."/includes/functions.php";
       
   </div>
 
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script async src="js/main.js"></script> <!-- Resource jQuery -->
     
 </body>
 </html>
